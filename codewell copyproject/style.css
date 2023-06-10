@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  height: 95.5vh;
+  background-color: #d5eff7;
+  margin: 20px;
+  border-radius: 32px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px auto;
+  gap: 25rem;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 3px 24px rgb(108 108 108 / 11%);
+  width: 66.5rem;
+  height: 5rem;
+  position: relative;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 17px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+nav ul li {
+  list-style: none;
+}
+.nav-right a {
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: center;
+  padding-right: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-left: 25px;
+}
+
+#btn-github {
+  height: 3.5rem;
+  width: 12rem;
+  font-size: 15px;
+  font-weight: 600;
+  /* margin-left: 25px; */
+  color: #fff;
+  border-color: #1890ff;
+  background: #1890ff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  border-radius: 3px;
+  overflow: hidden;
+}
+#btn-github:hover {
+  cursor: pointer;
+}
+
+#btn-github span {
+  padding-right: 10px;
+}
+
+#btn-github i {
+  font-size: 20px;
+  padding: 0 5px;
+}
+
+.content1 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+
+  margin: 8 auto;
+  margin: 0 auto;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 530px;
+  margin-top: 40px;
+  gap: 30px;
+  font-size: 26px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.content-container h1 {
+  font-weight: 600;
+}
+
+.content-container p {
+  font-size: 18px;
+}
+
+.content-container li {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* .challenges-section {
+  margin: 0 auto;
+} */
+
+.challenges {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 46rem;
+  margin-top: 2rem;
+  font-size: 18px;
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 1rem auto;
+}
+
+.top span a {
+  text-decoration: underline;
+}
+.challenges-card {
+  display: flex;
+  margin: 0 auto;
+  /* gap: 6rem; */
+}
+
+.card {
+  width: 308px;
+  height: 362px;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  margin: 2rem;
+  gap: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.card img {
+  padding: 5px;
+  border-radius: 20px;
+}
+.card h2 {
+  padding-left: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.card p {
+  padding-left: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+#btn-c {
+  height: 3.5rem;
+  width: 300px;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  border-color: #1890ff;
+  background: #1890ff;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  border-radius: 30px;
+  overflow: hidden;
+  font-family: sans-serif;
+  margin: 0 5px;
+}
+
+#btn-c a {
+  color: white;
+  text-decoration: none;
+}
+
+.slack {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  background-color: #d5eff7;
+  width: 66.5rem;
+  margin: 0 auto;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  font-family: "Source Sans Pro", sans-serif;
+  gap: 0.7rem;
+  margin-left: 6rem;
+}
+
+.left img {
+  width: 250px;
+  padding-bottom: 1rem;
+}
+
+.right img {
+  width: 518px;
+  height: 370px;
+}
+
+/* Footer */
+footer {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  font-family: "Source Sans Pro", sans-serif;
+  gap: 4rem;
+  padding: 10rem 0;
+}
+
+.left-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.middle-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.middle-right-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.right-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
